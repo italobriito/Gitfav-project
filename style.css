@@ -97,8 +97,6 @@ table {
   border-collapse: collapse;
 
   margin-top: 8.7rem;
-  /*overflow: scroll;
-  border: 1px solid red*/
 }
 
 
@@ -120,13 +118,9 @@ table thead tr{
 table thead tr th:first-child {
   width: 50.4rem;
   padding-left: 4rem ;
-  /*border-top-left-radius: 1rem;*/
-  
+    
 }
 
-/*table thead tr th:nth-child(4){
-  border-top-right-radius: 1rem;
-}*/
 
 thead tr th:nth-child(2),
 thead tr th:nth-child(3),
