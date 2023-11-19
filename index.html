@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Gitfav | Liste seus perfis favoritos no GitHub</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="js/main.js" type="module" defer></script>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+  <div id="app">
+    <header>
+      <img src="assets/Gitfav.svg" alt="Logotipo GitFav">
+
+      <div class="search">
+
+        <label class="sr-only" for="input-search">Digite o Github username que quer favoritar</label>
+        <input id="input-search"  type="text" placeholder="Digite o Github username que quer favoritar">
+
+        <button> <i class="ph ph-star"></i> Favoritar </button>
+      </div>
+
+    </header>
+
+    <table>
+      <thead>
+
+        <tr>
+          <th>Usuário</th>
+          <th>Repositories</th>
+          <th>Followers</th>
+          <th>Ação</th>
+        </tr>
+        
+      </thead>
+
+      <tbody>
+         <!--
+        <tr>
+
+         <td class="user">
+            <img src="https://github.com/maykbrito.png" alt="Imagem de Mayk Brito">
+            <a href="https://github.com/maykbrito">
+              <p>Maik Brito</p>
+              <span>/maikbrito</span>
+            </a>
+          </td>
+          <td class="repositories">123</td>
+          <td class="followers">1234</td>
+          <td class="remove">
+            Remover
+          </td>
+        </tr>
+        
+        <tr>
+          
+          <td class="user">
+            <img src="https://github.com/italobriito.png" alt="Imagem de Italo Brito">
+            <a href="https://github.com/maykbrito">
+              <p>Italo Brito</p>
+              <span>/italobriito</span>
+            </a>
+          </td>
+          <td class="repositories">123</td>
+          <td class="followers">1234</td>
+          <td class="remove">
+            Remover
+          </td>
+        </tr>
+        -->
+      </tbody>
+    </table>
+
+    <div class="empty-favorites">
+      <img src="assets/Estrela.svg" alt="Imagem de uma estrela">
+      <p>Nenhum favorito ainda</p>
+    </div>
+
+  </div> 
+
+</body>
+</html>
